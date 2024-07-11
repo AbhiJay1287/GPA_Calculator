@@ -1,14 +1,13 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 def main():
-    st.title("GPA Estimate Calculator AIML 3-2")
+    st.title("GPA Estimate Calculator CSE 3-2")
     st.text("Enter the expected GPAs for each course:")
-    st.text("Made without love - charan")
 
     cc = st.number_input("Expected GPA in Cloud Computing", min_value=0.0, max_value=10.0, step=0.1)
     se = st.number_input("Expected GPA in Software Engineering", min_value=0.0, max_value=10.0, step=0.1)
     bda = st.number_input("Expected GPA in Formal Language and Automata Theory", min_value=0.0, max_value=10.0, step=0.1)
-    ml = st.number_input("Expected GPA in MACHINE LEARNING", min_value=0.0, max_value=10.0, step=0.1)
+    ml = st.number_input("Expected GPA in Machine Learning", min_value=0.0, max_value=10.0, step=0.1)
     bdal = st.number_input("Expected GPA in UML Lab", min_value=0.0, max_value=10.0, step=0.1)
     mll = st.number_input("Expected GPA in ML Lab", min_value=0.0, max_value=10.0, step=0.1)
     mini = st.number_input("Expected GPA in Mini Project", min_value=0.0, max_value=10.0, step=0.1)
